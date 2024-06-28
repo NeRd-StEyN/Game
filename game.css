@@ -1,0 +1,101 @@
+
+/* div{
+    height: 100px;
+    width:100px;
+    background-color: red;
+    border:2px solid black;
+   /* transition-property: all;
+    transition-duration: 2s;
+    transition-delay: 1s;
+    
+    left:400px;
+   
+   position:relative;
+   animation-name: c;
+   animation-duration: 0.2s;
+   animation-timing-function: steps(6); 
+   animation-delay: 0s;
+   animation-iteration-count: infinite;
+ animation-direction:alternate;
+
+}
+
+/*div:hover{
+    background-color: aqua;
+    transform:scale(2);
+    transform:translate(200px,100px);  
+    transform: skew(9deg);   
+
+
+}*/
+/* 
+@keyframes c {
+    0%{left:0px;
+        background-color: red;
+    }
+    50%{
+        background-color: black;
+    }
+    100%{left:100px;
+    background-color: blue;}
+}
+*/
+h1{
+    background-color: #081b31;
+    color: white;
+    text-align: center;
+
+}
+.choices{
+    height: 200px;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height:100px;
+    width: 100px;
+object-fit: cover;
+border-radius: 50%;
+margin-left: 40px;
+}
+img:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    
+  
+}
+img:hover{
+    border : 5px solid rgb(1, 1, 1);
+}
+.scorecard{
+    display:flex;
+justify-content: center;
+align-items: center;
+font-size: 20px;
+line-height: 2px;
+gap:50px;}
+
+.container{
+    text-align: center;
+}
+
+#user{
+    font-size: 40px;
+}
+#comp{
+    font-size: 40px;
+}
+#move{
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 2rem;
+    
+}
+.container{
+    margin-top: 3rem;
+}
