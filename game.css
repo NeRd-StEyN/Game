@@ -99,3 +99,11 @@ gap:50px;}
 .container{
     margin-top: 3rem;
 }
+    @media (max-width: 768px) {
+    #move {
+        font-size: 1rem; /* Adjust font size for smaller screens */
+        padding: 0.8rem 1.5rem; /* Adjust padding for smaller screens */
+        margin-top: 0.5rem; /* Adjust margin for smaller screens */
+      }
+  
+  }
